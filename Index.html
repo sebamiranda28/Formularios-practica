@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Páctica formularios</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Ingresa tu nombre" />
+      <br /><br />
+      <input type="text" placeholder="Infresa tu apellido" />
+      <br /><br />
+      <span>Género:</span>
+      <br />
+      <label for="Género">Masculino 👨🏼</label>
+      <input type="radio" id="Género" name="Género" />
+
+      <label for="Género">Femenino 👩🏼</label>
+      <input type="radio" id="Género" name="Género" />
+      <br /><br />
+      <input type="email" placeholder="Ingresa tu correo" />
+      <br /><br />
+      <input type="password" placeholder="Ingresa tu contraseña" />
+      <br /><br />
+      <span>País:</span>
+      <select>
+        <option value="Argentina">Argentina</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Colombia">Collombia</option>
+      </select>
+      <br /><br />
+      <span>Ingresa tu edad:</span>
+      <input type="number" />
+      <br /><br />
+      <span>Acepto los términos y condiciones.</span>
+      <input type="checkbox" />
+      <br /><br />
+      <label for="Texto">Puede escribir lo que desee</label>
+      <br />
+      <textarea
+        name=""
+        id="Texto"
+        cols="30"
+        rows="10"
+        placeholder="Ingresa aqui tu texto"
+      ></textarea>
+      <br /><br />
+      <button>Registrarme</button>
+    </form>
+  </body>
+</html>
